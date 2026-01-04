@@ -1,0 +1,46 @@
+body{
+  background:#020617;
+  font-family:Arial;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.tabs{
+  background:#0f172a;
+  color:white;
+  padding:20px;
+  width:320px;
+  border-radius:12px;
+}
+
+.tab-buttons{
+  display:flex;
+  gap:6px;
+  margin-bottom:10px;
+}
+
+button{
+  flex:1;
+  padding:8px;
+  border:none;
+  border-radius:6px;
+  cursor:pointer;
+}
+
+button.active{
+  background:#22c55e;
+  color:#022c22;
+}
+
+.tab-content{
+  display:none;
+  padding:10px;
+  background:#1e293b;
+  border-radius:6px;
+}
+
+.tab-content.active{
+  display:block;
+}
